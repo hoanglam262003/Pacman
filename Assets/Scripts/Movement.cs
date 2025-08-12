@@ -50,7 +50,6 @@ public class Movement : MonoBehaviour
     {
         Vector2 position = this.rb.position;
         Vector2 translation = this.direction * this.speed * this.speedMultiplier * Time.fixedDeltaTime;
-
         this.rb.MovePosition(position + translation);
     }
 

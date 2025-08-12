@@ -16235,6 +16235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OrangeGhost
       objectReference: {fileID: 0}
+    - target: {fileID: 1073099990653016950, guid: 34d299c189eec4e4bb625a5b4302a075, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4883247847938230809, guid: 34d299c189eec4e4bb625a5b4302a075, type: 3}
       propertyPath: target
       value: 
@@ -23311,8 +23315,8 @@ Tilemap:
     m_Data: {fileID: 788134095987039583, guid: 9790c7cf31156c740ab5aa10354f536a, type: 3}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -22, y: -24, z: 0}
-  m_Size: {x: 44, y: 47, z: 1}
+  m_Origin: {x: -11, y: -11, z: 0}
+  m_Size: {x: 22, y: 22, z: 0}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -23343,6 +23347,10 @@ PrefabInstance:
     - target: {fileID: 470816456203316131, guid: 063499f8ce49c244b83b15e8968e0179, type: 3}
       propertyPath: m_Name
       value: YellowGhost
+      objectReference: {fileID: 0}
+    - target: {fileID: 470816456203316131, guid: 063499f8ce49c244b83b15e8968e0179, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5451624771529587404, guid: 063499f8ce49c244b83b15e8968e0179, type: 3}
       propertyPath: target
@@ -23437,12 +23445,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8089355067956956699, guid: 99e2f477b156e49439832d3271d0e500, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8089355067956956699, guid: 99e2f477b156e49439832d3271d0e500, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8089355067956956699, guid: 99e2f477b156e49439832d3271d0e500, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8089355067956956699, guid: 99e2f477b156e49439832d3271d0e500, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8089355067956956699, guid: 99e2f477b156e49439832d3271d0e500, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 8089355067956956699, guid: 99e2f477b156e49439832d3271d0e500, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24969,6 +24989,10 @@ PrefabInstance:
     - target: {fileID: 8740710089909932761, guid: cda616eb18d0ae1439a0b02d99408926, type: 3}
       propertyPath: m_Name
       value: GreenGhost
+      objectReference: {fileID: 0}
+    - target: {fileID: 8740710089909932761, guid: cda616eb18d0ae1439a0b02d99408926, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

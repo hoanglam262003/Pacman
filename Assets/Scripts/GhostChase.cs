@@ -30,6 +30,5 @@ public class GhostChase : GhostBehavior
             }
             this.ghost.movement.SetDirection(bestDirection);
         }
-
     }
 }

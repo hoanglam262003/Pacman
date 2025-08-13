@@ -152,6 +152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 8
+  inside: {fileID: 0}
+  outside: {fileID: 0}
 --- !u!114 &-2999715017656348811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,6 +167,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 7
+  body: {fileID: 9002313609763348045}
+  eyes: {fileID: 637970406362391819}
+  blue: {fileID: 1788723298121554387}
+  white: {fileID: 3218448882799853876}
 --- !u!114 &2002475368119129966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,6 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1791024044336743545}
   - component: {fileID: 637970406362391819}
+  - component: {fileID: 4000949585606200426}
   m_Layer: 7
   m_Name: Eyes
   m_TagString: Untagged
@@ -383,6 +390,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4000949585606200426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3018937504543842669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4951cef709373d342ae161a65ff9e91e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  up: {fileID: 21300000, guid: 7391304e6dcdc594484288107bfd217f, type: 3}
+  down: {fileID: 21300000, guid: b97167c35748db84fb4d32f4f242922a, type: 3}
+  left: {fileID: 21300000, guid: d65aa956b7569874fab274083826a77f, type: 3}
+  right: {fileID: 21300000, guid: 07ddb51374d9f19458dad756bbbcd880, type: 3}
 --- !u!1 &5502535849299635718
 GameObject:
   m_ObjectHideFlags: 0
